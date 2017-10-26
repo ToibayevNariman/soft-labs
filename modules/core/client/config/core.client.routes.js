@@ -24,11 +24,17 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider', '$locatio
       // url: '/',
       abstract: true,
       templateUrl: 'modules/core/client/views/core.client.view.html',
-      resolve: helper.resolveFor('modernizr', 'icons')
+      resolve: helper.resolveFor('modernizr', 'icons'),
+      data: {
+          roles: ['user', 'admin']
+      }
     })
     .state('app.home', {
       url: '/home',
-      templateUrl: 'modules/core/client/views/home.client.view.html'
+      templateUrl: 'modules/core/client/views/home.client.view.html',
+      data: {
+          roles: ['user', 'admin']
+      }
     })
     .state('app.not-found', {
       url: '/not-found',

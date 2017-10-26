@@ -1287,12 +1287,12 @@ _:-ms-lang(x), .layout-fixed .wrapper > .aside > .aside-inner {
   left: 0;
   bottom: 0;
   right: 0;
-  width: 100px;
-  height: 30px;
+  width: 380px;
+  height: 120px;
   margin: auto;
   overflow: auto;
   background-image: url(../img/preloader/preloader.empty.png);
-  background-size: 100px 30px; }
+  background-size: 380px 120px; }
 
 /*@noflip*/
 .preloader-progress-bar {
@@ -1302,7 +1302,7 @@ _:-ms-lang(x), .layout-fixed .wrapper > .aside > .aside-inner {
   bottom: 0;
   min-width: 10px;
   background-image: url(../img/preloader/preloader.full.png);
-  background-size: 100px 30px; }
+  background-size: 380px 120px; }
 
 .preloader-hidden {
   display: none; }

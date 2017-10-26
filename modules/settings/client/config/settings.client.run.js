@@ -26,7 +26,7 @@
       // Global Settings
       // -----------------------------------
       $rootScope.app = {
-        name: 'Angle',
+        name: 'Soft Labs',
         description: 'Angular Bootstrap Admin Template',
         year: ((new Date()).getFullYear()),
         layout: {
