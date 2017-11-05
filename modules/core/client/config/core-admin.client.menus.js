@@ -11,7 +11,7 @@ angular.module('core.admin').run(['Menus',
     });
 
     Menus.addMenuItem('sidebar', {
-      title: 'Home',
+      title: 'Мои проекты',
       state: 'app.home',
       type: 'item',
       iconClass: 'icon-home',
